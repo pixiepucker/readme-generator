@@ -18,7 +18,7 @@ function renderLicenseLink(license) {
     return '';
   }
   return `
-  This application is licensed by[${license}](https://opensource.org/licenses/${license})
+  This application is licensed by [${license}](https://opensource.org/licenses/${license})
   `;
 };
 
@@ -44,8 +44,10 @@ function generateMarkdown(data) {
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
-  - [License](#license)
   - [Credits](#credits)
+  - [Tests](#tests)
+  - [Questions](#questions)
+  - [License](#license)
 
   ## Installation
   ${data.installation}
@@ -53,17 +55,15 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
 
-  ## License
-  ${data.license}
-
   ## Credits
   ${data.credits}
 
   ## Tests
   ${data.tests}
 
-  ### Questions
+  ## Questions
   If you have any questions, feel free to [email me!](mailto:${data.email})
+  And checkout my GitHub [${data.github}](https://github.com/${data.github})
 
   ${renderLicenseSection(data.license)}
   ${renderLicenseLink(data.license)}

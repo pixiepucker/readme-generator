@@ -88,24 +88,22 @@ const questions = [
                 return false;
             }
         }
+    },
+    {
+        //github UN input
+        type: 'input',
+        name: 'github',
+        message: 'Please enter your GitHub username!',
+        validate: githubInput => {
+            if (githubInput) {
+                return true;
+            } else {
+                console.log('Please enter your GitHub username!');
+                return false;
+            }
+        }
     }
 ];
-
-//create function that prompts user for information on README, call this data for later
-//need ques for title, description, table of contents, 
-//installation, usage, license, credits, tests, and questions
-// const promptUser = () => {
-//     return inquirer
-//         .prompt([
-            
-//         ])
-//         .then(questionData => {
-//             //push question data into array
-//             questions.push(questionData);
-//             //console log to check if input collected
-//             console.log(questions);
-//         });
-// };
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
