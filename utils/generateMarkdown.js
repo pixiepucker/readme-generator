@@ -40,6 +40,7 @@ function generateMarkdown(data) {
 
   ## Description
   ${data.description}
+  You can find a link to the walkthrough video on my [YouTube.](https://www.youtube.com/watch?v=CjdVerSWTuU)
 
   ## Table of Contents
   - [Installation](#installation)

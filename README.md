@@ -5,7 +5,7 @@
   
 
   ## Description
-  This week's challenge was to create a README generator using NPM: Inquirer prompts. This was achieved through collaboration with classmates and by going back through Module 9 lessons again.
+  This week's challenge was to generate a README.md file using command-line prompts.
 
   ## Table of Contents
   - [Installation](#installation)
@@ -16,20 +16,21 @@
   - [License](#license)
 
   ## Installation
-  You must clone down this repo to your local machine and then run it through terminal.
+  You must clone down the repo to your local machine and run the app using terminal.
 
   ## Usage
-  Generating a README file.
+  Generating a README.md file.
 
   ## Credits
-  UTSA's Coding Bootcamp and my classmates.
+  UTSA's coding bootcamp and my classmates.
 
   ## Tests
-  N/A
+  N.A
 
   ## Questions
-  If you have any questions, feel free to [email me!](mailto:alycain.99@gmail.com)
-  And checkout my GitHub [pixiepucker](https://github.com/pixiepucker)
+  If you have any questions, feel free to [email me!](mailto:example@email.com)
+
+  And checkout my GitHub: [pixiepucker!](https://github.com/pixiepucker)
 
   ## License
   
